@@ -21,7 +21,7 @@ function showLengthOfTime() {
 
       var second = Math.floor(diff / 1000);
 
-      var countdown = year + " Tahun, " + month + " Bulan, " + day + " Hari, " + hour + " Jam, " + minute + " Menit, " + second + " Detik";
+      var countdown = year + " Tahun<br\>" + month + " Bulan<br\>" + day + " Hari<br\>" + hour + " Jam<br\>" + minute + " Menit<br\>" + second + " Detik";
 
       document.getElementById("countdown").innerHTML = countdown;
     }, 1000);
